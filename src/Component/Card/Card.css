@@ -1,0 +1,31 @@
+.card {
+    height: 25rem;
+    position: relative;
+    margin: 2.813rem;
+}
+.card-header {
+    display: flex;
+    justify-content: flex-end;
+}
+.card-header .imdb {
+    color: #FFFFFF;
+    background-color: #24123A;
+    border-radius: 4px 4px 0px 0px;
+    text-align: center;
+    font-weight: bold;
+    padding: 4px 12px;
+}
+.card-img {
+    height: 93%;
+}
+.card-bottom{
+    position: absolute;
+    height: 5rem;
+    width: 100%;
+    background-color: rgba(36, 18, 58, 0.76);
+    color: rgba(255, 255, 255, 1);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

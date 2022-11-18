@@ -1,0 +1,58 @@
+.detail-page {
+    display: flex;
+    width: 100%;
+}
+
+.detail-page .left {
+    width: 30%;
+    padding: 28px;
+}
+
+.detail-page .left img {
+    width: 100%;
+}
+
+.detail-page .right {
+    width: 70%;
+    padding: 28px;
+}
+
+.detail-page .right .vote-average {
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #24123A;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 16px;
+    padding: 8px 12px;
+    margin-left: 10px;
+}
+
+.detail-page .right .date {
+    color: #A59AAC;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.detail-page .right .type {
+    background-color: #A20040;
+    color: white;
+    font-weight: bold;
+    margin: 4px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.detail-page .right .desc {
+    margin: 32px 0px;
+    line-height: 1.7;
+    font-weight: bold;
+}
+
+.detail-page .right .collection {
+    font-style: italic;
+    font-weight: 500;
+    text-align: right;
+}

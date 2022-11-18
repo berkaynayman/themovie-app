@@ -1,0 +1,10 @@
+.list-title {
+    font-size: 25px;
+    margin-left: 45px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
